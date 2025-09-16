@@ -8,7 +8,7 @@
 Clear-Host
 $wshell = New-Object -ComObject wscript.shell
 $wshell | Get-Member
-$wshell.Popup("Esse curso eh muito legal")
+$wshell.Popup("Esse curso é muito legal")
 
 $wshell.run("Notepad")
 $wshell.AppActivate("Notepad")

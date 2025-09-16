@@ -3,9 +3,9 @@
 #Data de atualização: 16/09/2025  
 #Versão: 0.02
 
-# Aula 17 - Foreach
+# Aula 17.2 - Foreach
 
 Clear-Host
-ForEach ($numeros in 1,2,3,4,5,6,7,8) {
-    Write-Host $numeros
-}
+Start-process Notepad
+Start-Sleep 3
+Get-Process Notepad | ForEach-Object kill
